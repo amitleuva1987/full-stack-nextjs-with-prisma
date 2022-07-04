@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      =  "prisma://aws-us-east-1.prisma-data.com/?api_key=oZSjsvbYsDFXqxfNdkQmi9vByvja6TNTJnVu2QR_hRtk-fD-vWooN_CFeZXBwhOZ"
+  url      =  "mysql://root:uno9U0xWE9AHGMHdEOjL@containers-us-west-39.railway.app:7000/railway"
   // mysql://root:@localhost:3306/next_db?schema=public
   //mysql://root:uno9U0xWE9AHGMHdEOjL@containers-us-west-39.railway.app:7000/railway
 }
