@@ -17,18 +17,18 @@ export default NextAuth({
       from: process.env.EMAIL_FROM,
       // maxAge: 24 * 60 * 60, // How long email links are valid for (default 24h)
     }),
-    GoogleProvider({
-      clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_SECRET
-    }),
+    // GoogleProvider({
+    //   clientId: process.env.GOOGLE_ID,
+    //   clientSecret: process.env.GOOGLE_SECRET
+    // }),
     GithubProvider({
       clientId: process.env.GIT_ID,
       clientSecret: process.env.GIT_SECRET
     }),
-    FacebookProvider({
-      clientId: process.env.FACEBOOK_ID,
-      clientSecret: process.env.FACEBOOK_SECRET
-    }),
+    // FacebookProvider({
+    //   clientId: process.env.FACEBOOK_ID,
+    //   clientSecret: process.env.FACEBOOK_SECRET
+    // }),
     // Passwordless / email sign in
   ],
   secret: "LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=",
