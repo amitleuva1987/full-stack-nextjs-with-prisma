@@ -9,7 +9,7 @@ import { PrismaClient } from "@prisma/client"
 const prisma = new PrismaClient();
 
 export default NextAuth({
-  adapter: PrismaAdapter(prisma),
+//  adapter: PrismaAdapter(prisma),
   providers: [
   //    OAuth authentication providers...
     EmailProvider({
