@@ -1,0 +1,4 @@
+myNextApp:
+  component: "@sls-next/serverless-component"
+  inputs:
+    useServerlessTraceTarget: true
