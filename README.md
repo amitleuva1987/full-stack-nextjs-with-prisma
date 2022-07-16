@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## How to deploy over aws using serverless
 
+## To deploy over aws, refer "aws-version" branch. Main branch works with "Vercels"
+
 Open the next.config.js file and fill the environment variables.
 ```bash
 NEXTAUTH_URL:'******',
@@ -20,8 +22,6 @@ npx prisma generate
 npm run build
 serverless
 ```
-
-on successfull deployment, you will get a url to see your app. But, it may not work where you have used prisma client. 
 
 ## Deploy on Vercel
 
